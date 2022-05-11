@@ -22,25 +22,3 @@ for (let i=0;i<9;i++){
 }
 console.log(grid);
 //loops through all cells
-
-for (let i=0;i<9;i++){
-    for(let j=0;j<9;j++){
-        //vertical check
-        for(let k=0;k<9;k++){
-            if(grid[i][k].value==guessvalue){
-                guessvalue++;
-                k=0;
-            }
-        }
-
-        //horizontal
-        for(let k=0;k<9;k++){
-            if(grid[i][k].value==guessvalue){
-                guessvalue++;
-                k=0;
-            }
-        }
-
-
-    }
-}
